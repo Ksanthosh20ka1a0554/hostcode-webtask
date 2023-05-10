@@ -1,0 +1,88 @@
+body{
+    font-family: 'Montserrat', Sans-serif;
+}
+.nav-link:hover{
+    color: blue;
+    
+}
+.button-nav{
+ background-color: #0044A7;
+ color: white;
+ padding: 10px;
+ border-radius: 30px 30px 30px 30px;
+float: left;
+font-size: 20px;
+padding-left: 20px;
+padding-right: 20px;
+border: none;
+}
+.button-nav:hover{
+    background-color: #26B1FF;
+}
+.main-header{
+    background-color: #EEF3F9;
+}
+.info{
+    color: #26B1FF;
+}
+.btn{
+    background-color: #0044A7;
+    border-radius: 30px 30px 30px 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: #26B1FF;
+}
+.card-image{
+    border-radius: 50%;
+    background-color: #0044A7;
+}
+.card-image:hover{
+    background-color: #26B1FF;
+}
+.card{
+    border: none;
+}
+.list-img{
+    width: 4%;
+    height: 4%;
+    border-radius: 50%;
+    background-color: #0044A7;
+    padding: unset;
+    margin: unset;
+}
+
+li{
+    margin: unset;
+}
+.vl{
+    border-left: 1px solid black;
+    height: 100px;
+}
+.card-img{
+    background-color: #0044A7;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 0px;
+}
+.services .card:hover{
+    background-color: #0044A7;
+    color:white;
+}
+.services .card:hover .card-img{
+    background-color: white;
+    
+}
+.img-left{
+    flex-direction: row;
+}
+
+.card-img-top:hover{
+    opacity: 0.7;
+    background:rgba(0,0,0,0.6);
+}
